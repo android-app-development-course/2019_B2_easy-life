@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scnu">
+
+    <LinearLayout
+        android:id="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:background="#F5F5F5">
+
+        <ImageView
+            android:id="@+id/head_portrait"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/head"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"/>
+
+        <TableLayout
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tv_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/nickname"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:maxLines="1"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll_head">
+
+        <TextView
+            android:id="@+id/tv_my_profile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingStart="25dp"
+            android:text="@string/my_profile"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tv_modify_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_my_profile"
+            android:layout_marginTop="8dp"
+            android:paddingStart="25dp"
+            android:padding="5dp"
+            android:text="@string/modify_password"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_modify_password"
+            android:layout_marginTop="8dp"
+            android:paddingStart="25dp"
+            android:padding="5dp"
+            android:text="@string/logout"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

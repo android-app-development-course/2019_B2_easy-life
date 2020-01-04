@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grade">
+        <item> </item>
+        <item>大一</item>
+        <item>大二</item>
+        <item>大三</item>
+        <item>大四</item>
+    </string-array>
+</resources>

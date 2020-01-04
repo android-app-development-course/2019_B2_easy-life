@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/new_class"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/collage"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="#DC143C"
+                android:text="*"/>
+
+            <Spinner
+                android:id="@+id/cho_college"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:entries="@array/collage">
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/grade" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="#DC143C"
+                android:text="*"/>
+
+            <Spinner
+                android:id="@+id/cho_grade"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:entries="@array/grade">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/course_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="#DC143C"
+                android:text="*"/>
+
+            <Spinner
+                android:id="@+id/cho_course_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:entries="@array/course">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/teacher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="#DC143C"
+                android:text="*"/>
+
+            <EditText
+                android:id="@+id/edt_teacher"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/class_location" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="#DC143C"
+                android:text="*"/>
+
+            <EditText
+                android:id="@+id/edt_class_location"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="7dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/able_sign_time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="25sp"
+                android:textColor="#DC143C"
+                android:text="*"/>
+
+            <Spinner
+                android:id="@+id/cho_able_sign_time"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:entries="@array/able_sign_time">
+            </Spinner>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="@string/minute" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/round3"
+                android:text="@string/confirm"/>
+
+            <Button
+                android:id="@+id/btn_quit"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:textSize="20sp"
+                android:background="@drawable/round2"
+                android:text="@string/cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

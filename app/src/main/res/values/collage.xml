@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="collage">
+        <item> </item>
+        <item>计算机学院</item>
+        <item>教育技术学院</item>
+        <item>教育信息学院</item>
+        <item>地理科学学院</item>
+        <item>数学科学学院</item>
+    </string-array>
+</resources>

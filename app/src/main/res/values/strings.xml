@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">华师易生活</string>
+    <string name="title_home">首页</string>
+    <string name="title_notifications">我的消息</string>
+    <string name="title_profile">个人中心</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="user_id">账号</string>
+    <string name="password">密码</string>
+    <string name="nickname">昵称</string>
+    <string name="realname">真实姓名</string>
+    <string name="password2">确认密码</string>
+    <string name="input_user_id">请输入账号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_nickname">请输入昵称</string>
+    <string name="input_realname">请输入真实姓名</string>
+    <string name="input_password2">请再次输入密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="login_success">登录成功</string>
+    <string name="register_success">注册成功</string>
+    <string name="wrong_account_password">账号或密码错误</string>
+    <string name="passsword_different">两次输入密码不一致</string>
+    <string name="no_user">此账号不存在</string>
+    <string name="no_empty">必填项不能为空</string>
+    <string name="your_id_is">您的账号为：</string>
+    <string name="creator_nickname">发布者</string>
+    <string name="refresh_success">刷新成功</string>
+    <string name="input_keyword">请输入关键字</string>
+
+    <string name="sign_in">课堂签到</string>
+    <string name="new_class">创建课程</string>
+    <string name="collage">学院</string>
+    <string name="grade">年级</string>
+    <string name="course_name">课程</string>
+    <string name="teacher">教师</string>
+    <string name="class_location">上课地点</string>
+    <string name="choose_location">选择当前位置</string>
+    <string name="cur_pos">当前位置</string>
+    <string name="able_sign_time">可签到时间</string>
+    <string name="minute">分钟以内</string>
+    <string name="beyond_time">超过签到时间</string>
+    <string name="create_success">创建成功</string>
+    <string name="cur_class">签到</string>
+    <string name="sign_success">签到成功</string>
+    <string name="already_sign">已签到</string>
+    <string name="created_class">已创建的课程</string>
+    <string name="created_time">创建时间</string>
+    <string name="signed_class">已签到的课程</string>
+    <string name="signed_time">签到时间</string>
+    <string name="class_info">课程信息</string>
+
+    <string name="lost_found">失物招领</string>
+    <string name="new_lost">发布失物招领</string>
+    <string name="item_name">物品名称</string>
+    <string name="found_place">拾获地点</string>
+    <string name="found_time">拾获时间</string>
+    <string name="cur_place">物品所在地</string>
+    <string name="lost_image">失物图片</string>
+    <string name="upload_success">上传成功</string>
+    <string name="publish_success">发布成功</string>
+    <string name="new_search_notice">发布寻物启示</string>
+    <string name="search_notice">寻物启事</string>
+    <string name="lost_place">丢失地点</string>
+    <string name="lost_time">丢失时间</string>
+    <string name="item_character">物品特征</string>
+    <string name="cur_lost_found">寻找失物/失主</string>
+    <string name="contact_collector">联系拾获者</string>
+    <string name="contact_owner">联系失主</string>
+    <string name="lost_info">失物信息</string>
+    <string name="created_lost_found">我的发布</string>
+
+    <string name="entrust">委托</string>
+    <string name="new_commission">发布委托</string>
+    <string name="commission_title">委托标题</string>
+    <string name="commission_content">委托内容</string>
+    <string name="commission_position">委托地点</string>
+    <string name="comission_reward">委托报酬</string>
+    <string name="cur_commission">接受委托</string>
+    <string name="commission_info">委托信息</string>
+    <string name="publish_time">发布时间</string>
+    <string name="contact_consignor">联系委托人</string>
+    <string name="created_commission">已发布的委托</string>
+
+    <string name="website">常用网站</string>
+    
+    <string name="my_profile">我的资料</string>
+    <string name="modify_profile">编辑资料</string>
+    <string name="modify_password">修改密码</string>
+    <string name="input_old_password">请输入旧密码</string>
+    <string name="input_new_password1">请输入新密码</string>
+    <string name="input_new_password2">请再次输入新密码</string>
+    <string name="old_password_wrong">旧密码输入错误</string>
+    <string name="password_no_empty">新密码不能为空</string>
+    <string name="save">保存</string>
+    <string name="save_success">保存成功</string>
+    <string name="logout">退出登录</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yahoo.scnu_easylife">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Register"></activity>
+
+        <activity android:name=".Sign_in"></activity>
+        <activity android:name=".New_class"></activity>
+        <activity android:name=".Cur_class"></activity>
+        <activity android:name=".Display_cur_class"></activity>
+        <activity android:name=".Created_class"></activity>
+        <activity android:name=".Display_created_class"></activity>
+        <activity android:name=".Signed_class"></activity>
+        <activity android:name=".Display_signed_class"></activity>
+
+        <activity android:name=".Lost_found"></activity>
+        <activity android:name=".New_lost"></activity>
+        <activity android:name=".New_search_notice"></activity>
+        <activity android:name=".Cur_lost_found"></activity>
+        <activity android:name=".Display_cur_lost_found"></activity>
+        <activity android:name=".Created_lost_found"></activity>
+        <activity android:name=".Display_created_lost_found"></activity>
+
+        <activity android:name=".Entrust"></activity>
+        <activity android:name=".New_commission"></activity>
+        <activity android:name=".Cur_commission"></activity>
+        <activity android:name=".Display_cur_commission"></activity>
+        <activity android:name=".Created_commission"></activity>
+        <activity android:name=".Display_created_commission"></activity>
+
+        <activity android:name=".Website"></activity>
+        <activity android:name=".Brower_web"></activity>
+
+        <activity android:name=".MList"></activity>
+
+        <activity android:name=".My_profile"></activity>
+        <activity android:name=".Modify_password"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

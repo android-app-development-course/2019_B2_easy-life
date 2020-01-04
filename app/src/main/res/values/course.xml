@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="course">
+        <item> </item>
+        <item>线性代数</item>
+        <item>高等数学</item>
+        <item>计算机科学导论</item>
+    </string-array>
+</resources>

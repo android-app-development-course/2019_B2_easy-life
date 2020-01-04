@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/scnu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="@string/sign_in"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btn_new_class"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/round1"
+        android:text="@string/new_class"/>
+
+    <Button
+        android:id="@+id/btn_cur_class"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:background="@drawable/round2"
+        android:text="@string/cur_class"/>
+
+    <Button
+        android:id="@+id/btn_created_class"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/round1"
+        android:text="@string/created_class"/>
+
+    <Button
+        android:id="@+id/btn_signed_class"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:background="@drawable/round2"
+        android:text="@string/signed_class"/>
+
+</LinearLayout>

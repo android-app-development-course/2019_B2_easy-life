@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/scnu">
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:background="@drawable/round_sign_in"
+        android:drawableTop="@drawable/ic_sign_in"
+        android:text="@string/sign_in"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/btn_lost_found"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:background="@drawable/round_lost_found"
+        android:drawableTop="@drawable/ic_lost_found"
+        android:text="@string/lost_found"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/btn_entrust"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:background="@drawable/round_entrust"
+        android:drawableTop="@drawable/ic_entrust"
+        android:paddingTop="20dp"
+        android:text="@string/entrust"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/btn_website"
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:background="@drawable/round_website"
+        android:drawableTop="@drawable/ic_website"
+        android:paddingTop="15dp"
+        android:text="@string/website"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+</android.support.constraint.ConstraintLayout>
